@@ -221,7 +221,12 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 4.2 Test-Time Graph OOD & Anomaly Detection
 
-
+|  Name  |                                                Title                                               |   Venue   |                           Paper                           |                          Code                          |
+|:------:|:--------------------------------------------------------------------------------------------------:|:---------:|:---------------------------------------------------------:|:------------------------------------------------------:|
+|  AAGOD | A data-centric framework to endow graph neural networks with out-of-distribution detection ability |  KDD 2023 | [PDF](https://dl.acm.org/doi/pdf/10.1145/3580305.3599244) |      [Torch](https://github.com/BUPT-GAMMA/AAGOD)      |
+| GOODAT | GOODAT: Towards Test-time Graph Out-of-Distribution Detection                                      | AAAI 2024 |          [PDF](https://arxiv.org/pdf/2401.06176)          |         [Torch](https://github.com/Ee1s/GOODAT)        |
+|  GOAT  | Map to Optimal: Adapting Graph Out-of-Distribution in Test Time                                    |     -     |      [PDF](https://openreview.net/pdf?id=6j0oKBo196)      |                          [N/A]                         |
+|  GADT3 | Cross-Domain Graph Anomaly Detection via Test-Time                                                 | TMLR 2025 |          [PDF](https://arxiv.org/pdf/2502.14293)          | [Torch](https://github.com/delaramphf/GADT3-Algorithm) |
 
 
 #### 4.3 Test-Time Graph Learning for Social Benefits
