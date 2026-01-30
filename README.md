@@ -212,7 +212,11 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 4.1 Test-Time GNN Model Evaluation
 
-
+|     Name     |                                   Title                                  |    Venue    |                                                          Paper                                                          |                          Code                         |
+|:------------:|:------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------:|
+| GNNevaluator | GNNEvaluator: evaluating GNN performance on unseen graphs without labels | NeurIPS2023 | [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/6a55f024db3f771194bdadc8f3a35381-Paper-Conference.pdf) | [Torch](https://github.com/Amanda-Zheng/GNNEvaluator) |
+|     LeBed    | Online GNN Evaluation Under Test-Time Graph Distribution Shifts          |  ICLR 2024  |                                     [PDF](https://openreview.net/pdf?id=KbetDM33YG)                                     |     [Torch](https://github.com/Amanda-Zheng/LEBED)    |
+| DYGevaluator | Test-time GNN Model Evaluation on Dynamic Graphs                         |  ICDM 2025  |                                         [PDF](https://arxiv.org/pdf/2509.23816)                                         |                         [N/A]                         |
 
 
 #### 4.2 Test-Time Graph OOD & Anomaly Detection
