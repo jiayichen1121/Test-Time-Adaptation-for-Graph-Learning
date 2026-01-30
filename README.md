@@ -38,7 +38,7 @@ The outline corresponds to the taxonomy in our survey paper.
 </thead>
 <tbody>
   <tr>
-    <td rowspan="5"><br><br><br>Latent Feature <br>Space-Oriented <br>Fine-Tuning</td>
+    <td rowspan="5"><br><br>Latent Feature <br>Space-Oriented <br>Fine-Tuning</td>
     <td>GT3</td>
     <td>Test-Time Training for Graph Neural Networks</td>
     <td>arXiv 2022</td>
