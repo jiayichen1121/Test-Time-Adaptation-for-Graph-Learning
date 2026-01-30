@@ -200,7 +200,10 @@ The outline corresponds to the taxonomy in our survey paper.
 
 ### 3. Hybrid TTA Methods on Graphs
 
-
+|   Name   |                                          Title                                          |    Venue   |                           Paper                           |                       Code                       |
+|:--------:|:---------------------------------------------------------------------------------------:|:----------:|:---------------------------------------------------------:|:------------------------------------------------:|
+| GraphCTA | Collaborate to Adapt: Source-Free Graph Domain Adaptation via Bi-directional Adaptation |  WWW 2024  | [PDF](https://dl.acm.org/doi/pdf/10.1145/3589334.3645507) | [Torch](https://github.com/cszhangzhen/GraphCTA) |
+|   IGFT   | 3D Test-time Adaptation via Graph Spectral Driven Point Shift                           | arXiv 2025 |          [PDF](https://arxiv.org/pdf/2507.18225)          |                       [N/A]                      |
 
 
 
