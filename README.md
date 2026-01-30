@@ -25,7 +25,8 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 1.1 Full Model Fine-Tuning
 
-<table><thead>
+<table>
+<thead>
   <tr>
     <th>Taxonomy</th>
     <th>Name</th>
@@ -33,75 +34,77 @@ The outline corresponds to the taxonomy in our survey paper.
     <th>Venue</th>
     <th>Paper</th>
     <th>Code</th>
-  </tr></thead>
+  </tr>
+</thead>
 <tbody>
   <tr>
     <td rowspan="5"><br><br><br>Latent Feature <br>Space-Oriented <br>Fine-Tuning</td>
     <td>GT3</td>
     <td>Test-Time Training for Graph Neural Networks</td>
     <td>arXiv 2022</td>
-    <td>[PDF](https://arxiv.org/pdf/2210.08813)</td>
+    <td><a href="https://arxiv.org/pdf/2210.08813">[PDF]</a></td>
     <td>[N/A]</td>
   </tr>
   <tr>
     <td>HomoTTT</td>
     <td>A Fully Test-time Training Framework for Semi-supervised Node Classification on Out-of-Distribution Graphs</td>
     <td>TKDD 2024</td>
-    <td>[PDF](https://dl.acm.org/doi/epdf/10.1145/3649507)</td>
+    <td><a href="https://dl.acm.org/doi/epdf/10.1145/3649507">[PDF]</a></td>
     <td>[N/A]</td>
   </tr>
   <tr>
     <td>TARD</td>
     <td>Out-of-distribution Rumor Detection via Test-Time Adaptation</td>
     <td>arXiv 2024</td>
-    <td>[PDF](https://arxiv.org/pdf/2403.17735)</td>
-    <td>[N/A}</td>
+    <td><a href="https://arxiv.org/pdf/2403.17735">[PDF]</a></td>
+    <td>[N/A]</td>
   </tr>
   <tr>
     <td>IGT</td>
     <td>Test-Time Training with Invariant Graph Learning for Out-of-Distribution Generalization</td>
     <td>SSRN 2024</td>
-    <td>[PDF](https://iopscience.iop.org/article/10.1088/2631-8695/ae2781/pdf)</td>
+    <td><a href="https://iopscience.iop.org/article/10.1088/2631-8695/ae2781/pdf">[PDF]</a></td>
     <td>[N/A]</td>
   </tr>
   <tr>
     <td>MATCHA</td>
     <td>Matcha: Mitigating Graph Structure Shifts with Test-Time Adaptation</td>
     <td>ICLR 2025</td>
-    <td>[PDF](https://arxiv.org/pdf/2410.06976)</td>
-    <td>[Torch](https://github.com/baowenxuan/Matcha)</td>
+    <td><a href="https://arxiv.org/pdf/2410.06976">[PDF]</a></td>
+    <td><a href="https://github.com/baowenxuan/Matcha">[Torch]</a></td>
   </tr>
   <tr>
     <td>Graph Learning <br>Task-Oriented</td>
     <td>LLMTTT</td>
     <td>Test-Time Training on Graphs with Large Language Models (LLMs)</td>
     <td>MM 2024</td>
-    <td>[PDF](https://dl.acm.org/doi/pdf/10.1145/3664647.3680865)</td>
-    <td>[Torch](https://github.com/Vanessa-ZZZ/LLMTTT)</td>
+    <td><a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3680865">[PDF]</a></td>
+    <td><a href="https://github.com/Vanessa-ZZZ/LLMTTT">[Torch]</a></td>
   </tr>
   <tr>
     <td rowspan="3"><br><br>Fully <br>Fine-Tuning</td>
     <td>SOGA</td>
     <td>Source Free Graph Unsupervised Domain Adaptation</td>
     <td>WSDM 2024</td>
-    <td>[PDF](https://dl.acm.org/doi/pdf/10.1145/3616855.3635802)</td>
+    <td><a href="https://dl.acm.org/doi/pdf/10.1145/3616855.3635802">[PDF]</a></td>
     <td>[N/A]</td>
   </tr>
   <tr>
     <td>PROGRAM</td>
     <td>PROGRAM: PROtotype GRAph Model based Pseudo-Label Learning for Test-Time Adaptation</td>
     <td>ICLR 2024</td>
-    <td>[PDF](https://openreview.net/pdf?id=x5LvBK43wg)</td>
+    <td><a href="https://openreview.net/pdf?id=x5LvBK43wg">[PDF]</a></td>
     <td>[N/A]</td>
   </tr>
   <tr>
     <td>DT3OR</td>
     <td>Dual Test-Time Training for Out-of-Distribution Recommender System</td>
     <td>TKDE 2025</td>
-    <td>[PDF](https://dl.acm.org/doi/10.1109/TKDE.2025.3548160)</td>
+    <td><a href="https://dl.acm.org/doi/10.1109/TKDE.2025.3548160">[PDF]</a></td>
     <td>[N/A]</td>
   </tr>
-</tbody></table>
+</tbody>
+</table>
 
 #### 1.2 Adapter-Based Model Learning 
 
