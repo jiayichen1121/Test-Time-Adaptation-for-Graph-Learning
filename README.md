@@ -108,7 +108,10 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 1.2 Adapter-Based Model Learning 
 
-
+|          Taxonomy         |  Name |                        Title                       |    Venue   |                  Paper                  |                          Code                          |
+|:-------------------------:|:-----:|:--------------------------------------------------:|:----------:|:---------------------------------------:|:------------------------------------------------------:|
+| Ahead Well-Trained Model  | GADT3 | Cross-Domain Graph Anomaly Detection via Test-Time |  TMLR 2025 | [PDF](https://arxiv.org/pdf/2502.14293) | [Torch](https://github.com/delaramphf/GADT3-Algorithm) |
+| Behind Well-Trained Model |  TSA  | Training with Homophily-Guided Self-Supervision    | arXiv 2025 | [PDF](https://arxiv.org/pdf/2502.18334) |        [Torch](https://github.com/Graph-COM/TSA)       |
 
 
 #### 1.3 Joint Model-Adapter Learning
