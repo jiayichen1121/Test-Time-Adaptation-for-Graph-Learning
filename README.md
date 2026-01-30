@@ -1,7 +1,10 @@
 # Test-Time-Adaptation-for-Graph-Learning
-Graph distribution shifts between training and test graphs pose severe challenges to the generalization of graph neural networks (GNNs). In real-world deployment, application environments are continuously evolving, while retraining or redesigning GNNs is often costly and impractical. In light of this, **test-time adaptation on graphs**, which aims to dynamically adapt well-trained GNNs or adjust test graphs to improve inference performance, has attracted growing attention as a practical solution. In this survey, we provide a comprehensive review of test-time adaptation on graphs, an emerging yet underexplored research direction. We identify two fundamental challenges: (1) **Data-level**: *complex graph distribution shifts*; and (2) **Model-level**: *limited test-time learning information*. Upon this, we present a systematic taxonomy of existing methods into (a) model-centric, (b) data-centric, and (c) hybrid methods, followed by a summary of representative applications, benchmarks, and open opportunities. We aim to bridge the gap between laboratory GNN development and real-world deployment via test-time adaptation.
+Graph distribution shifts between training and test graphs pose severe challenges to the generalization of graph neural networks (GNNs). In real-world deployment, application environments are continuously evolving, while retraining or redesigning GNNs is often costly and impractical. In light of this, **test-time adaptation on graphs**, which aims to dynamically adapt well-trained GNNs or adjust test graphs to improve inference performance, has attracted growing attention as a practical solution. 
+
+In this survey, we provide a comprehensive review of test-time adaptation on graphs, an emerging yet underexplored research direction. We identify two fundamental challenges: (1) **Data-level**: *complex graph distribution shifts*; and (2) **Model-level**: *limited test-time learning information*. Upon this, we present a systematic taxonomy of existing methods into (a) model-centric, (b) data-centric, and (c) hybrid methods, followed by a summary of representative applications, benchmarks, and open opportunities. We aim to bridge the gap between laboratory GNN development and real-world deployment via test-time adaptation.
 
 ## Overview
+
 
 The outline corresponds to the taxonomy in our survey paper.
  
@@ -21,7 +24,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 ## Literature
 
-### 📌1. Model-Centric TTA Methods on Graphs
+### 📌 1. Model-Centric TTA Methods on Graphs
 
 #### 1.1 Full Model Fine-Tuning
 
@@ -123,7 +126,7 @@ The outline corresponds to the taxonomy in our survey paper.
 |  GCAL  | GCAL: Adapting Graph Models to Evolving Domain Shifts                                           |      ICML 2025     | [PDF](https://openreview.net/pdf?id=zVBYbjjlMX) |     [Torch](https://github.com/joe817/GCAL)    |
 
 
-### 📌2. Data-Centric TTA Methods on Graphs
+### 📌 2. Data-Centric TTA Methods on Graphs
 
 #### 2.1 Additive Graph Refinement
 
@@ -198,7 +201,7 @@ The outline corresponds to the taxonomy in our survey paper.
 </table>
 
 
-### 📌3. Hybrid TTA Methods on Graphs
+### 📌 3. Hybrid TTA Methods on Graphs
 
 |   Name   |                                          Title                                          |    Venue   |                           Paper                           |                       Code                       |
 |:--------:|:---------------------------------------------------------------------------------------:|:----------:|:---------------------------------------------------------:|:------------------------------------------------:|
@@ -208,7 +211,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 
 
-### 📌4. Application Scenarios
+### 📌 4. Application Scenarios
 
 #### 4.1 Test-Time GNN Model Evaluation
 
@@ -292,7 +295,7 @@ The outline corresponds to the taxonomy in our survey paper.
 </table>
 
 
-## 📌 Datasets
+## Datasets
 
 <table style="width:100%; border-collapse: collapse; text-align: center; font-size: 0.9em;">
 <caption style="caption-side: top; font-weight: bold; margin-bottom: 10px; font-size: 1.1em;">
