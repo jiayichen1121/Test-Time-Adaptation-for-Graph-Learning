@@ -4,6 +4,7 @@ Graph distribution shifts between training and test graphs pose severe challenge
 In this survey, we provide a comprehensive review of test-time adaptation on graphs, an emerging yet underexplored research direction. We identify two fundamental challenges: (1) **Data-level**: *complex graph distribution shifts*; and (2) **Model-level**: *limited test-time learning information*. Upon this, we present a systematic taxonomy of existing methods into (a) model-centric, (b) data-centric, and (c) hybrid methods, followed by a summary of representative applications, benchmarks, and open opportunities. We aim to bridge the gap between laboratory GNN development and real-world deployment via test-time adaptation.
 
 ## Overview
+<img width="1640" height="395" alt="image" src="https://github.com/user-attachments/assets/7fe97fe6-af67-49a2-8e63-db136bf4983e" />
 
 
 The outline corresponds to the taxonomy in our survey paper.
