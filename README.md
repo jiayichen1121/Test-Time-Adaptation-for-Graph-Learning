@@ -116,7 +116,11 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 1.3 Joint Model-Adapter Learning
 
-
+|  Name  |                                              Title                                              |        Venue       |                      Paper                      |                      Code                      |
+|:------:|:-----------------------------------------------------------------------------------------------:|:------------------:|:-----------------------------------------------:|:----------------------------------------------:|
+|  GAPGC | GraphTTA: Test Time Adaptation on Graph Neural Networks                                         | ICML 2022 Workshop |     [PDF](https://arxiv.org/pdf/2208.09126)     |                      [N/A]                     |
+| ASSESS | Test-time Adaptation on Graphs via Adaptive Subgraph-based Selection and Regularized Prototypes |      ICML 2025     | [PDF](https://openreview.net/pdf?id=lC40m2jjUO) | [Torch](https://github.com/YushengZhao/ASSESS) |
+|  GCAL  | GCAL: Adapting Graph Models to Evolving Domain Shifts                                           |      ICML 2025     | [PDF](https://openreview.net/pdf?id=zVBYbjjlMX) |     [Torch](https://github.com/joe817/GCAL)    |
 
 
 ### 2. Data-Centric TTA Methods on Graphs
