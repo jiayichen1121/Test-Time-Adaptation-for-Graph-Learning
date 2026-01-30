@@ -231,7 +231,65 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 4.3 Test-Time Graph Learning for Social Benefits
 
-
+<table>
+<thead>
+  <tr>
+    <th>Taxonomy</th>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Venue</th>
+    <th>Paper</th>
+    <th>Code</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">Recommendation <br>System</td>
+    <td>TTA-GREC</td>
+    <td>Test-time adaptation on recommender system with data-centric graph transformation</td>
+    <td>AAAI 2025</td>
+    <td><a href="https://www.ijcai.org/proceedings/2025/0510.pdf">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td>DT3OR</td>
+    <td>Dual Test-Time Training for Out-of-Distribution Recommender System</td>
+    <td>TKDE 2025</td>
+    <td><a href="https://dl.acm.org/doi/10.1109/TKDE.2025.3548160">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td>Cybersecurity</td>
+    <td>Tran et al.</td>
+    <td>Mitigating Distribution Shift in Graph-Based Android Malware Classification via Function Metadata and LLM Embeddings</td>
+    <td>arXiv 2025</td>
+    <td><a href="https://arxiv.org/pdf/2508.06734">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><br><br>Healthcare</td>
+    <td>GTTA</td>
+    <td>Graph-guided test-time adaptation for glaucoma diagnosis using fundus photography</td>
+    <td>arXiv 2024</td>
+    <td><a href="https://arxiv.org/abs/2407.04396v1">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td>TTDG-MGM</td>
+    <td>Test-Time Domain Generalization via Universe Learning: A Multi-Graph Matching Approach for Medical Image Segmentation</td>
+    <td>CVPR 2025</td>
+    <td><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Lv_Test-Time_Domain_Generalization_via_Universe_Learning_A_Multi-Graph_Matching_Approach_CVPR_2025_paper.pdf">[PDF]</a></td>
+    <td><a href="https://github.com/Yore0/TTDG-MGM">[Code]</a></td>
+  </tr>
+  <tr>
+    <td>SPA</td>
+    <td>Recognizing Surgical Phases Anywhere: Few-Shot Test-time Adaptation and Task-graph Guided Refinement</td>
+    <td>MICCAI 2025</td>
+    <td><a href="https://papers.miccai.org/miccai-2025/paper/1469_paper.pdf">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Datasets
