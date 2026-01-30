@@ -127,7 +127,12 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 2.1 Additive Graph Refinement
 
-
+|     Name     |                                                Title                                               |     Venue    |                                                          Paper                                                          |                        Code                       |
+|:------------:|:--------------------------------------------------------------------------------------------------:|:------------:|:-----------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------:|
+|    GTrans    | Empowering Graph Representation Learning with Test-Time Graph Transformation                       |   ICLR 2023  |                                     [PDF](https://openreview.net/pdf?id=Lnxl5pr018)                                     |  [Torch](https://github.com/ChandlerBang/GTrans)  |
+|     GOAT     | Map to Optimal: Adapting Graph Out-of-Distribution in Test Time                                    |       -      |                                     [PDF](https://openreview.net/pdf?id=6j0oKBo196)                                     |                       [N/A]                       |
+|     AAGOD    | A data-centric framework to endow graph neural networks with out-of-distribution detection ability |   KDD 2023   |                                [PDF](https://dl.acm.org/doi/pdf/10.1145/3580305.3599244)                                |    [Torch](https://github.com/BUPT-GAMMA/AAGOD)   |
+| Graphpatcher | GRAPHPATCHER: mitigating degree bias for graph neural networks via test-time augmentation          | NeurIPS 2023 | [PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/ae9bbdcea94d808882f3535e8ca00542-Paper-Conference.pdf) | [Torch](https://github.com/jumxglhf/GraphPatcher) |
 
 
 #### 2.2 Reconstructive Graph Adaptation
