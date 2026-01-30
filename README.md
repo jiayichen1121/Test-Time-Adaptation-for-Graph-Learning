@@ -137,7 +137,65 @@ The outline corresponds to the taxonomy in our survey paper.
 
 #### 2.2 Reconstructive Graph Adaptation
 
-
+<table>
+<thead>
+  <tr>
+    <th>Taxonomy</th>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Venue</th>
+    <th>Paper</th>
+    <th>Code</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2"><br>Feature-Level <br>Reconstruction</td>
+    <td>Yang et al.</td>
+    <td>Control the GNN: Utilizing Neural Controller with Lyapunov Stability for Test-Time Feature Reconstruction</td>
+    <td>arXiv 2024</td>
+    <td><a href="https://arxiv.org/pdf/2410.09708">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td>FR-GNN</td>
+    <td>FRGNN: Mitigating the Impact of Distribution Shift on Graph Neural Networks via Test-Time Feature Reconstruction</td>
+    <td>IEEEIOT2024</td>
+    <td><a href="https://arxiv.org/pdf/2308.09259">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><br><br>Joint Feature &amp; Structure <br>Reconstruction</td>
+    <td>GOODAT</td>
+    <td>GOODAT: Towards Test-time Graph Out-of-Distribution Detection</td>
+    <td>AAAI 2024</td>
+    <td><a href="https://arxiv.org/pdf/2401.06176">[PDF]</a></td>
+    <td><a href="https://github.com/Ee1s/GOODAT">[Code]</a></td>
+  </tr>
+  <tr>
+    <td>TT-GREB</td>
+    <td>Test-Time Graph Rebirth: Serving GNN Generalization Under Distribution Shifts</td>
+    <td>ICDM 2025</td>
+    <td><a href="https://openreview.net/pdf?id=rW3NVhKtQ2">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td>TTA-GREC</td>
+    <td>Test-time adaptation on recommender system with data-centric graph transformation</td>
+    <td>AAAI 2025</td>
+    <td><a href="https://www.ijcai.org/proceedings/2025/0510.pdf">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+  <tr>
+    <td>Generative Reconstruction</td>
+    <td>TT-GNDS</td>
+    <td>Test-Time Graph Neural Dataset Search With Generative Projection</td>
+    <td>ICML 2025</td>
+    <td><a href="https://openreview.net/pdf?id=824TCt6CkE">[PDF]</a></td>
+    <td>[N/A]</td>
+  </tr>
+</tbody>
+</table>
 
 
 ### 3. Hybrid TTA Methods on Graphs
