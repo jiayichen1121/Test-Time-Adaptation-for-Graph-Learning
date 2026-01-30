@@ -21,7 +21,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 ## Literature
 
-### 1. Model-Centric TTA Methods on Graphs
+### 📌1. Model-Centric TTA Methods on Graphs
 
 #### 1.1 Full Model Fine-Tuning
 
@@ -123,7 +123,7 @@ The outline corresponds to the taxonomy in our survey paper.
 |  GCAL  | GCAL: Adapting Graph Models to Evolving Domain Shifts                                           |      ICML 2025     | [PDF](https://openreview.net/pdf?id=zVBYbjjlMX) |     [Torch](https://github.com/joe817/GCAL)    |
 
 
-### 2. Data-Centric TTA Methods on Graphs
+### 📌2. Data-Centric TTA Methods on Graphs
 
 #### 2.1 Additive Graph Refinement
 
@@ -198,7 +198,7 @@ The outline corresponds to the taxonomy in our survey paper.
 </table>
 
 
-### 3. Hybrid TTA Methods on Graphs
+### 📌3. Hybrid TTA Methods on Graphs
 
 |   Name   |                                          Title                                          |    Venue   |                           Paper                           |                       Code                       |
 |:--------:|:---------------------------------------------------------------------------------------:|:----------:|:---------------------------------------------------------:|:------------------------------------------------:|
@@ -208,7 +208,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 
 
-### 4. Application Scenarios
+### 📌4. Application Scenarios
 
 #### 4.1 Test-Time GNN Model Evaluation
 
@@ -292,15 +292,146 @@ The outline corresponds to the taxonomy in our survey paper.
 </table>
 
 
-## Datasets
+## 📌 Datasets
 
-### 📌 Feature/Structural Shift Datasets
+<table style="width:100%; border-collapse: collapse; text-align: center; font-size: 0.9em;">
+<caption style="caption-side: top; font-weight: bold; margin-bottom: 10px; font-size: 1.1em;">
+  Statistics and characteristics of graph datasets for evaluating test-time adaptation on graphs.
+</caption>
+<thead>
+<tr style="border-bottom: 2px solid #000;">
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">Distribution Shift</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">Datasets</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">#Nodes / #Graphs</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">#Edges / Avg. Size</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">#Classes</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">Task Level</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">Metric(s)</th>
+  <th rowspan="2" style="border-bottom: 1px solid #ddd; padding: 8px;">Splits</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-top: 2px solid #666;">
+  <td rowspan="5" style="vertical-align: middle; font-weight: bold; padding: 8px;">Feature/Structural Shift</td>
+  <td style="padding: 6px;">Cora</td>
+  <td style="padding: 6px;">2,703</td>
+  <td style="padding: 6px;">5,278</td>
+  <td style="padding: 6px;">10</td>
+  <td style="padding: 6px;">Node</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/8</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">Amazon-Photo</td>
+  <td style="padding: 6px;">7,650</td>
+  <td style="padding: 6px;">119,081</td>
+  <td style="padding: 6px;">10</td>
+  <td style="padding: 6px;">Node</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/8</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">IMDB-BINARY</td>
+  <td style="padding: 6px;">1,000</td>
+  <td style="padding: 6px;">19</td>
+  <td style="padding: 6px;">2</td>
+  <td style="padding: 6px;">Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/8</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">PROTEINS</td>
+  <td style="padding: 6px;">1,113</td>
+  <td style="padding: 6px;">39</td>
+  <td style="padding: 6px;">2</td>
+  <td style="padding: 6px;">Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">8/1/1</td>
+</tr>
+<tr style="border-bottom: 1px solid #ddd;">
+  <td style="padding: 6px;">ENZYMES</td>
+  <td style="padding: 6px;">587</td>
+  <td style="padding: 6px;">33</td>
+  <td style="padding: 6px;">6</td>
+  <td style="padding: 6px;">Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">4/1</td>
+</tr>
 
+<tr style="border-top: 2px solid #666;">
+  <td rowspan="6" style="vertical-align: middle; font-weight: bold; padding: 8px;">Domain Shift</td>
+  <td style="padding: 6px;">Twitch-E</td>
+  <td style="padding: 6px;">1,912-9,498</td>
+  <td style="padding: 6px;">31,299–153,138</td>
+  <td style="padding: 6px;">2</td>
+  <td style="padding: 6px;">Node/Graph</td>
+  <td style="padding: 6px;">ROC-AUC</td>
+  <td style="padding: 6px;">1/1/5</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">FB-100</td>
+  <td style="padding: 6px;">769-41,536</td>
+  <td style="padding: 6px;">16,656–1,590,655</td>
+  <td style="padding: 6px;">2</td>
+  <td style="padding: 6px;">Node</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">3/2/3</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">ACMv9</td>
+  <td style="padding: 6px;">7,410</td>
+  <td style="padding: 6px;">22,270</td>
+  <td style="padding: 6px;">6</td>
+  <td style="padding: 6px;">Node/Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/369 (3-domains: A, D, C)</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">DBLPv8</td>
+  <td style="padding: 6px;">5,578</td>
+  <td style="padding: 6px;">14,682</td>
+  <td style="padding: 6px;">6</td>
+  <td style="padding: 6px;">Node/Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/369 (3-domains: A, D, C)</td>
+</tr>
+<tr>
+  <td style="padding: 6px;">Citationv2</td>
+  <td style="padding: 6px;">4,715</td>
+  <td style="padding: 6px;">13,466</td>
+  <td style="padding: 6px;">6</td>
+  <td style="padding: 6px;">Node/Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/369 (3-domains: A, D, C)</td>
+</tr>
+<tr style="border-bottom: 1px solid #ddd;">
+  <td style="padding: 6px;">ogbg-molhiv</td>
+  <td style="padding: 6px;">41,127</td>
+  <td style="padding: 6px;">25.3</td>
+  <td style="padding: 6px;">2</td>
+  <td style="padding: 6px;">Graph</td>
+  <td style="padding: 6px;">ROC-AUC</td>
+  <td style="padding: 6px;">8/1/1</td>
+</tr>
 
----
-
-### 📌 Domain Shift Datasets
-
----
-
-### 📌 Temporal Shift Datasets
+<tr style="border-top: 2px solid #666;">
+  <td rowspan="2" style="vertical-align: middle; font-weight: bold; padding: 8px;">Temporal Shift</td>
+  <td style="padding: 6px;">OGB-arXiv</td>
+  <td style="padding: 6px;">169,343</td>
+  <td style="padding: 6px;">1,166,243</td>
+  <td style="padding: 6px;">40</td>
+  <td style="padding: 6px;">Node/Graph</td>
+  <td style="padding: 6px;">Accuracy</td>
+  <td style="padding: 6px;">1/1/3</td>
+</tr>
+<tr style="border-bottom: 2px solid #000;">
+  <td style="padding: 6px;">Elliptic</td>
+  <td style="padding: 6px;">203,769</td>
+  <td style="padding: 6px;">234,355</td>
+  <td style="padding: 6px;">2</td>
+  <td style="padding: 6px;">Node</td>
+  <td style="padding: 6px;">F1 Score</td>
+  <td style="padding: 6px;">5/5/33</td>
+</tr>
+</tbody>
+</table>
