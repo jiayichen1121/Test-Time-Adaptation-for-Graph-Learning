@@ -165,7 +165,7 @@ The outline corresponds to the taxonomy in our survey paper.
     <td>[N/A]</td>
   </tr>
   <tr>
-    <td rowspan="3"><br><br>Joint Feature &amp; Structure <br>Reconstruction</td>
+    <td rowspan="3"><br>Joint Feature &amp; Structure <br>Reconstruction</td>
     <td>GOODAT</td>
     <td>GOODAT: Towards Test-time Graph Out-of-Distribution Detection</td>
     <td>AAAI 2024</td>
