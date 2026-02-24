@@ -443,7 +443,7 @@ The outline corresponds to the taxonomy in our survey paper.
 
 ## Citing
 > If you find this resource helpful, please consider to star this repository and cite our research.
-> If you have any suggestions or questions, please feel free to contact us:Jiayi Chen (chenjy@mail.dlut.edu.cn) and Xin Zheng (xin.zheng2@rmit.edu.au)
+> If you have any suggestions or questions, please feel free to contact us: Jiayi Chen (chenjy@mail.dlut.edu.cn) and Xin Zheng (xin.zheng2@rmit.edu.au)
 ```
  @article{Chen_2026,
 title={Test-Time Adaptation for Graph Learning: A Systematic Survey},
