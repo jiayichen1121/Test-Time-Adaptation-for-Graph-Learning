@@ -439,3 +439,18 @@ The outline corresponds to the taxonomy in our survey paper.
 </tr>
 </tbody>
 </table>
+
+
+## Citing
+> If you find this resource helpful, please consider to star this repository and cite our research.
+> If you have any suggestions or questions, please feel free to contact us:Jiayi Chen (chenjy@mail.dlut.edu.cn) and Xin Zheng (xin.zheng2@rmit.edu.au)
+```
+ @article{Chen_2026,
+title={Test-Time Adaptation for Graph Learning: A Systematic Survey},
+url={http://dx.doi.org/10.36227/techrxiv.177138879.90217571/v1},
+DOI={10.36227/techrxiv.177138879.90217571/v1},
+publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+author={Chen, Jiayi and Zheng, Xin and Li, Bo and Wang, Zeyu and Guo, Yanqing and Xia, Feng},
+year={2026},
+month=feb }
+```
